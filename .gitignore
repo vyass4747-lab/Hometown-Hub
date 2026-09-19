@@ -1,11 +1,33 @@
+# Virtual Environment
 venv/
+env/
+
+# Environment variables / API keys
+.env
+
+# Python cache
 __pycache__/
 *.py[cod]
+
+# Django
 *.sqlite3
-.env
-.env.*
-node_modules/
-dist/
+
+# ChromaDB
+chroma_db/
+chromadb/
+
+# Uploaded media files
 media/
-staticfiles/
+
+# Node modules
+frontend/node_modules/
+
+# Build files
+frontend/dist/
+
+# VS Code
 .vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
