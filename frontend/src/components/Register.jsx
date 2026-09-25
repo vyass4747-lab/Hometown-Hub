@@ -18,7 +18,7 @@ function Register() {
 
         try {
             const response = await axios.post(
-                "http://127.0.0.1:8000/account/register/",
+                "https://hometown-hub-523u.onrender.com/account/register/",
                 {
                     email,
                     firstName,
