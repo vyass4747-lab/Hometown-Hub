@@ -30,7 +30,7 @@ class Community(models.Model):
         blank=True
     )
 
-    is_approved = models.BooleanField(default=False)
+    is_approved = models.BooleanField(default=True)
 
     created_at = models.DateTimeField(auto_now_add=True)
 
